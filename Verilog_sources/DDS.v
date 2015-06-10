@@ -81,25 +81,25 @@ begin
 end
 
 
-sine_ROM	sine_ROM_inst (
+sine_ROM sine_ROM_inst (
 	.address ( ROM_Address ),
 	.clock ( clk_4 ),
 	.q ( sine_D )
 );
 
-AM_ROM	AM_ROM_inst (
+AM_ROM AM_ROM_inst (
 	.address ( ROM_Address ),
 	.clock ( clk_4 ),
 	.q ( AM_D )
 	);
 
-FM_ROM	FM_ROM_inst (
+FM_ROM FM_ROM_inst (
 	.address ( ROM_Address ),
 	.clock ( clk_4 ),
 	.q ( FM_D )
 	);
 	
-sine_ROM	sine_ROM_high_inst (
+sine_ROM sine_ROM_high_inst (
 	.address ( ROM_Address_high ),
 	.clock ( clk_3 ),
 	.q ( sine_D_high )
