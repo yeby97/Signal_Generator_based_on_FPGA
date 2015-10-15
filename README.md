@@ -1,4 +1,4 @@
-# Simple signal generator using DDS based on FPGA
+# Simple signal generator based on DDS & FPGA
 A **very** simple sine/AM/FM/ASK/FSK signal generator, parameter unchangeble (that's why it's **simple**)
 
 #### Generation of on-chip ROM
